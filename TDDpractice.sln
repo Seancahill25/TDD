@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDpractice.UnitTests", "TDDpractice.UnitTests\TDDpractice.UnitTests.csproj", "{5B7C74AF-E407-439A-835E-65C27EE56CDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDgrading", "TDDgrading\TDDgrading.csproj", "{7B982931-A336-419C-94C2-5F36DF95135F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftRotation", "LeftRotation\LeftRotation.csproj", "{87940F27-1471-4C58-AC53-0CA7EDBD3B1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5B7C74AF-E407-439A-835E-65C27EE56CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B7C74AF-E407-439A-835E-65C27EE56CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B7C74AF-E407-439A-835E-65C27EE56CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B982931-A336-419C-94C2-5F36DF95135F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B982931-A336-419C-94C2-5F36DF95135F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B982931-A336-419C-94C2-5F36DF95135F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B982931-A336-419C-94C2-5F36DF95135F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87940F27-1471-4C58-AC53-0CA7EDBD3B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87940F27-1471-4C58-AC53-0CA7EDBD3B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87940F27-1471-4C58-AC53-0CA7EDBD3B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87940F27-1471-4C58-AC53-0CA7EDBD3B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
