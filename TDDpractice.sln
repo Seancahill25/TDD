@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDgrading", "TDDgrading\TD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftRotation", "LeftRotation\LeftRotation.csproj", "{87940F27-1471-4C58-AC53-0CA7EDBD3B1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConverter", "RomanNumeralConverter\RomanNumeralConverter.csproj", "{458F1BFB-E695-492C-8074-E119C98C228B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{87940F27-1471-4C58-AC53-0CA7EDBD3B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87940F27-1471-4C58-AC53-0CA7EDBD3B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87940F27-1471-4C58-AC53-0CA7EDBD3B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458F1BFB-E695-492C-8074-E119C98C228B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458F1BFB-E695-492C-8074-E119C98C228B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458F1BFB-E695-492C-8074-E119C98C228B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458F1BFB-E695-492C-8074-E119C98C228B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
