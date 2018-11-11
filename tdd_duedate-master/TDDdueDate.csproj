@@ -50,6 +50,10 @@
     <Compile Include="BillDueDateUnitTest1.cs" />
     <Compile Include="HolidayService.cs" />
     <Compile Include="IHolidayService.cs" />
+    <Compile Include="test1.cs" />
+    <Compile Include="test2.cs" />
+    <Compile Include="test3.cs" />
+    <Compile Include="test4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
