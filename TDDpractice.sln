@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftRotation", "LeftRotatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConverter", "RomanNumeralConverter\RomanNumeralConverter.csproj", "{458F1BFB-E695-492C-8074-E119C98C228B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDdueDate", "tdd_duedate-master\TDDdueDate.csproj", "{61D5A2D6-6AE9-4938-A60C-7BB28FE3CA64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{458F1BFB-E695-492C-8074-E119C98C228B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{458F1BFB-E695-492C-8074-E119C98C228B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{458F1BFB-E695-492C-8074-E119C98C228B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D5A2D6-6AE9-4938-A60C-7BB28FE3CA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D5A2D6-6AE9-4938-A60C-7BB28FE3CA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D5A2D6-6AE9-4938-A60C-7BB28FE3CA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D5A2D6-6AE9-4938-A60C-7BB28FE3CA64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
