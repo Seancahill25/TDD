@@ -54,7 +54,10 @@ namespace Tests
         [Test]
         public void IfInputContainsNegativeNumberAndPostiveNumberBothAreSameClosestToZeroReturnNegativeNumber()
         {
-
+            var finder = new Finder();
+            int[] input = { 3, 8, -3 };
+            var output = -3;
+            Assert.AreEqual(output, finder.FindClosestIntToZero(input));
         }
     }
 }

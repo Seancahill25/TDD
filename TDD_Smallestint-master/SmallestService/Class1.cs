@@ -10,19 +10,21 @@ namespace SmallestService
            if(array.Length > 0)
             {
                 Array.Sort(array);
-                return Convert.ToInt32(array[0]);
+                return array[0];
             }
            throw new ArgumentException("array is empty");
         }
 
         public int FindClosestIntToZero(int[] input)
         {
-            if(input.Length > 0)
+            if (input.Length > 1)
             {
                 Array.Sort(input);
-                var negativeComparer = 0;
-                return Convert.ToInt32(input[0]);
+                var i = 0;
+                if (Math.Abs(input[i]) > Math.Abs(input[i + 1])) i++;
+                return input[i];
             }
+            else if (input.Length == 1) return input[0];
             throw new ArgumentException("array is empty");
         }
     }
