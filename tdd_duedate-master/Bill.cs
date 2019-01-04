@@ -21,7 +21,7 @@ namespace PaymentDateCheck
             {
                return dueDate.AddDays(2);
             }                
-            else if (dueDate.DayOfWeek == DayOfWeek.Sunday)
+            if (dueDate.DayOfWeek == DayOfWeek.Sunday)
             {
                 return dueDate.AddDays(1);
             }
