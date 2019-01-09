@@ -10,30 +10,30 @@ namespace TicTacToe
     {
         static void Main(string[] args)
         {
+            var across = 5;
+            var down = 5;
             var f = 0;
-            for(var i = 0; i < 30; i++)
+            for (var i = 0; i < across; i++)
             {
                 Console.Write(" |");
-                if(i == 29)
+                if (i == across - 1)
                 {
                     Console.WriteLine("");
-                    if(f == 8)
+                    if (f == down)
                     {
                         break;
                     }
-                    for(var j = 0; j < 30; j++)
+                    for (var j = 0; j < across; j++)
                     {
                         Console.Write("-+");
-                        if(j == 29)
+                        if (j == across - 1)
                         {
                             Console.WriteLine("-");
                         }
                     }
                     i = -1;
                     f++;
-                    
                 }
-            }
         }
     }
 }
