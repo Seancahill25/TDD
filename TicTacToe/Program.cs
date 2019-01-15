@@ -10,12 +10,12 @@ namespace TicTacToe
     {
         static void Main(string[] args)
         {
-            var across = 5;
-            var down = 5;
+            var across = 2;
+            var down = 2;
             var f = 0;
             for (var i = 0; i < across; i++)
             {
-                Console.Write(" |");
+                Console.Write(" x|");
                 if (i == across - 1)
                 {
                     Console.WriteLine("");
@@ -34,6 +34,7 @@ namespace TicTacToe
                     i = -1;
                     f++;
                 }
+            }
         }
     }
 }
